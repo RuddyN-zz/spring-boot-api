@@ -10,14 +10,14 @@ import javax.persistence.Table;
 public class User {
 
     @Id
-    private float id;
+    private long id;
 
     private String name;
 
     public User() {
     }
 
-    public User(float id, String name) {
+    public User(long id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -31,7 +31,7 @@ public class User {
         return id;
     }
 
-    public void setId(float id) {
+    public void setId(long id) {
         this.id = id;
     }
 

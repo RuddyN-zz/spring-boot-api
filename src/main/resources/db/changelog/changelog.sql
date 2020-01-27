@@ -2,7 +2,7 @@
 
 --changeset ruddy:1
 create table USER (
-id float primary key,
+id double primary key,
 name varchar(255)
 );
 
